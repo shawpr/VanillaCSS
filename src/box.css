@@ -1,0 +1,88 @@
+body {
+     font-family: overpass;
+ }
+
+/* The Box (background) */
+.box {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #ededed;
+}
+
+/* box wrapper */
+.box-wrapper {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid white;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+/* header with nav */
+.box-topnav {
+    overflow: hidden;
+    background-color: #c00;
+    color: white;
+}
+
+.box-topnav a,label {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.box-topnav a{
+    border-left: 1px solid white;
+}
+
+.box-topnav a:hover {
+    background-color: #470000;
+}
+
+.box-topnav a.active {
+    background-color: #470000;
+
+}
+
+.box-topnav-right {
+    float: right;
+}
+
+.box-content {
+    padding: 0 16px 0 16px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: start;
+    grid-row-gap: 10px;
+    grid-column-gap: 40px;
+}
+.grid-item {
+    padding: 5px;
+    text-align: left;
+}
+
+.grid-item.case-detail-value {
+    color: #bbb;
+}
+
+.grid-item.case-detail-value span {
+    border: 1px solid #008100;
+    background-color:#008100;
+    border-radius: 0.3em;
+    padding: 2px;
+    color: #fff;
+}
