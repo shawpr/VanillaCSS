@@ -1,4 +1,4 @@
-# VanillaCss
+# Vanilla CSS
 
 Files:
 - box.html 
