@@ -1,5 +1,5 @@
 # VanillaCss
 
 Files:
-box.html 
-box.css
+- box.html 
+- box.css
